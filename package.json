@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/juanjosec5/paletas/issues"
   },
-  "homepage": "https://github.com/juanjosec5/paletas#readme"
+  "homepage": "https://github.com/juanjosec5/paletas#readme",
+  "dependencies": {
+    "angular": "^1.3.20"
+  }
 }
