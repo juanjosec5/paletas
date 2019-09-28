@@ -1,0 +1,26 @@
+{
+  "name": "paletas",
+  "version": "1.0.0",
+  "description": "Tienda de paletas con firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanjosec5/paletas.git"
+  },
+  "keywords": [
+    "paletas",
+    "firebase",
+    "html",
+    "css",
+    "angularhjs"
+  ],
+  "author": "Juan Jose Cuadros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanjosec5/paletas/issues"
+  },
+  "homepage": "https://github.com/juanjosec5/paletas#readme"
+}
