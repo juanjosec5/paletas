@@ -1,29 +1,36 @@
 {
-  "name": "paletas",
-  "version": "1.0.0",
-  "description": "Tienda de paletas con firebase",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/juanjosec5/paletas.git"
-  },
-  "keywords": [
-    "paletas",
-    "firebase",
-    "html",
-    "css",
-    "angularhjs"
-  ],
-  "author": "Juan Jose Cuadros",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/juanjosec5/paletas/issues"
-  },
-  "homepage": "https://github.com/juanjosec5/paletas#readme",
-  "dependencies": {
-    "angular": "^1.3.20"
-  }
+    "name": "paletas",
+    "version": "1.0.0",
+    "description": "Tienda de paletas con firebase",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/juanjosec5/paletas.git"
+    },
+    "keywords": [
+        "paletas",
+        "firebase",
+        "html",
+        "css",
+        "angularhjs"
+    ],
+    "author": "Juan Jose Cuadros",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/juanjosec5/paletas/issues"
+    },
+    "homepage": "https://github.com/juanjosec5/paletas#readme",
+    "dependencies": {
+        "angular": "^1.3.20",
+        "grunt": "^1.0.4",
+        "sass": "^1.23.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-sass": "latest",
+        "grunt-contrib-watch": "latest"
+    }
 }

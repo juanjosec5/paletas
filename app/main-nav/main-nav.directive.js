@@ -9,7 +9,7 @@
     function navbar() {
         return {
             restrict: 'E',
-            template: '<p>main navigation</p>',
+            templateUrl: '/app/main-nav/main-nav.html',
             controller: navController,
             controllerAs: 'vm',
             bindToController: true
