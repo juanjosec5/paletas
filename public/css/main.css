@@ -1,7 +1,34 @@
-.navbar header {
+* {
+  padding: 0;
+  margin: 0;
+}
+* body {
+  background: green;
+}
+
+navbar header {
   width: 100vw;
-  height: 90px;
+  height: auto;
   background-color: red;
+}
+navbar header .container {
+  width: 90%;
+  margin: 0 auto;
+}
+navbar header .container .menu-wrapper {
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+navbar header .container .menu-wrapper .burger-menu {
+  background: blue;
+}
+navbar header .container .menu-wrapper .header-title {
+  background: green;
+}
+navbar header .container .menu-wrapper .logo {
+  background: grey;
 }
 
 /*# sourceMappingURL=main.css.map */

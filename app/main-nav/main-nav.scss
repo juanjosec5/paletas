@@ -1,7 +1,26 @@
-.navbar {
+navbar {
     header {
         width: 100vw;
-        height: 90px;
+        height: auto;
         background-color: red;
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            .menu-wrapper {
+                display: flex;
+                height: 90px;
+                justify-content: space-between;
+                align-items: center;
+                .burger-menu {
+                    background: blue;
+                }
+                .header-title {
+                    background: green;
+                }
+                .logo {
+                    background: grey;
+                }
+            }
+        }
     }
 }
